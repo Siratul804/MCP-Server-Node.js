@@ -1,6 +1,6 @@
-## **MCP TypeScript Server With Node.js**
+**MCP TypeScript Server With Node.js**
 
-## What is MCP?
+# What is MCP?
 
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io) lets you build servers that expose data and functionality to LLM applications in a secure, standardized way. Think of it like a web API, but specifically designed for LLM interactions. MCP servers can:
 
@@ -9,7 +9,7 @@ The [Model Context Protocol (MCP)](https://modelcontextprotocol.io) lets you bui
 - Define interaction patterns through **prompts** (reusable templates for LLM interactions)
 - And more!
 
-### Resources
+## Resources
 
 Resources are how you expose data to LLMs. They're similar to GET endpoints in a REST API - they provide data but shouldn't perform significant computation or have side effects:
 
@@ -39,7 +39,7 @@ server.resource(
 );
 ```
 
-### Tools
+## Tools
 
 Tools let LLMs take actions through your server. Unlike resources, tools are expected to perform computation and have side effects:
 
@@ -73,7 +73,7 @@ server.tool(
 );
 ```
 
-### Prompts
+## Prompts
 
 Prompts are reusable templates that help LLMs interact with your server effectively:
 
